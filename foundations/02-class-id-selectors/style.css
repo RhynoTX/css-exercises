@@ -1,20 +1,29 @@
+* {
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+    color: rgb(0, 0, 0);
+}
+
 /* Using RGB for color */
 .odd-numbers {
-    font-family: "Verdana", "DejaVu Sans", sans-serif;
     background-color: rgb(249, 134, 134);
-    color: rgb(0, 0, 0);
+
 }
 
 /* Using Hex for color */
 #number2 {
     background-color: #FFFFFF;
     color: #0000FF;
+    font-size: 36px;
+}
+
+/* Used for lines 3 & 4 */
+.size24 {
+    font-size: 24px;
 }
 
 /* Tried using HSL for color, but it will not present on Chrome.
 USER ERROR: HSL last 2 catagories require % sign, as used below*/
 #number4 {
     background-color: hsl(120, 80%, 70%);
-    color: hsl(0, 0%, 0%);
-    font-style: bold;
+    font-weight: bold;
 }
