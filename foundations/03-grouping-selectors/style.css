@@ -1,0 +1,15 @@
+.yes,
+.no {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.yes {
+    background-color: rgb(0, 0, 0);
+    color: #FFFFFF;
+}
+
+.no {
+    background-color: rgb(255, 255, 0);
+    /* Fonts default to black, no need to include it here */
+}
