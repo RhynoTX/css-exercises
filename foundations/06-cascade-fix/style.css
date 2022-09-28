@@ -8,25 +8,34 @@ body{
   font-weight: 800;
 }
 
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
-}
-
+/*Switched the .para and .small-para, in the cascade. 
+Now <p class="para small-para"> in index.html is smaller */
 .para {
   font-size: 22px;
 }
 
-.confirm {
+.small-para {
+  font-size: 14px;
+  font-weight: 800;
+}
+/* ID > Class > Type */
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
 } 
-
+/* The class portion of the index.html is useless 
+for the confirm button with this solution */
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
+}
+
+.text {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: 100;
 }
 
 .child {
@@ -35,8 +44,4 @@ body{
   font-size: 14px;
 }
 
-div.text {
-  color: rgb(0, 0, 0);
-  font-size: 22px;
-  font-weight: 100;
-}
+
