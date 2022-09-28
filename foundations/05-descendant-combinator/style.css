@@ -1,0 +1,30 @@
+/*
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    background-color: rgb(255, 255, 0);
+    color: hsl(0, 100%, 50%);
+    font-size: 20px;
+    text-align: center;
+} */
+/* The solution below is a Descendant combinator right? */
+div.container{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 0);
+    color: hsl(0, 100%, 50%);
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Alternatively:
+
+.container .text {
+  background-color: yellow;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
+
+*/
